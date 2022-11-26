@@ -9,7 +9,7 @@
 <body>
     <h1> Testando PHP</h1>
     <?php
-        echo "Cleiton Ama o TOR<br> (usando echo)";
+        echo "<h2>Cleiton Ama o TOR<br>";
     ?>
 </body>
 </html>
