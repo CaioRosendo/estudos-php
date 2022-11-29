@@ -8,9 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        $valor = $_GET["v"];
-        echo "O valor enviado foi $valor"
-    ?>
+    <div>
+        <?php
+            $valor = $_GET["v"];
+            echo "O valor enviado foi $valor"
+        ?>
+    </div>
 </body>
 </html>
