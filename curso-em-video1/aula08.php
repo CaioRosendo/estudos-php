@@ -8,9 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        $valor = $_GET["v"];
-        echo "O valor enviado foi $valor"
-    ?>
+    <div>
+        <?php
+            $valor = $_GET["vl"];
+            $rq = sqrt($valor);
+            echo "A raiz de $valor é ". number_format($rq,2);
+        ?>
+        <br>
+        <a href="aula08.html">Voltar</a>
+    </div>
 </body>
 </html>
