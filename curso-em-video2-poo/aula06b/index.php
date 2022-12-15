@@ -26,9 +26,6 @@
             echo "<br> ......";
             $a -> atirar();
             echo "<p>";
-            
-            
-        
         ?>
     </pre>
 </body>
