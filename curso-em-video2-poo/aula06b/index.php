@@ -7,15 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Projeto Controle Remoto</p>
-    <pre>
-        <?php
-            require_once 'ControleRemoto.php';
-            $c = new ControleRemoto();
-            $c -> ligar();
-            $c -> maisVolume();
-            $c -> abrirMenu();
-        ?>
-    </pre>
+    <P>Arma com 12 munições</P>
+    <?php
+        require_once 'Arma.php';
+        $a = new Arma();
+        $a -> atirar;
+    ?>
 </body>
 </html>
