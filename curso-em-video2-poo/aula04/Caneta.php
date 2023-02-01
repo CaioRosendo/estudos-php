@@ -21,7 +21,7 @@ class Caneta{
     }
     public function setModelo($m) {
         $this -> modelo = $m;
-    }
+    }  
     public function getPonta(){
         return $this -> ponta;
     }

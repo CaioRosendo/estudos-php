@@ -43,7 +43,7 @@ class Conta{
     public function sacar($val) {
         if ($this->getStatus(true)) {
             if ($this->getSaldo() > $val) {
-                $this->setSaldo($this->getSaldo() -$val);
+                $this->setSaldo($this->getSaldo() - $val);
                 echo "<br> Saque autorizado na conta da ". $this->getDono() ."<br>";
             } else {
                 echo "<br> Saldo Insuficiente";

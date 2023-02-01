@@ -60,7 +60,7 @@ Class ControleRemoto implements Controlador {
         echo "<br> Está tocando? ". ($this->getTocando()?"SIM":"Não");
         if ($this->getLigado()){
             echo "<br> Volume: ".$this ->getVolume();
-            for($i=0; $i <= $this->getVolume();$i+=10){
+             for($i=0; $i <= $this->getVolume();$i+=10){
             echo "|";
         }
         }
@@ -73,7 +73,7 @@ Class ControleRemoto implements Controlador {
         if ($this->getLigado()) {
             $this -> setVolume($this->getVolume()+5);
         }
-    }
+    } 
     public function menosVolume(){
         if ($this -> getLigado()) {
             $this -> setVolume($this -> getVolume()-5);

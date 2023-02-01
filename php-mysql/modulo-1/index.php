@@ -15,7 +15,7 @@
             <tr><td>foto<td>Nome<td>Adm 
             <tr><td>Foto<td>Nome<td>Adm
             <tr><td>Foto<td>Nome<td>Adm
-        </table>    
+         </table>    
     </div>
 </body>
 </html>

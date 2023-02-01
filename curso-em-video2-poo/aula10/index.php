@@ -25,10 +25,19 @@
             $p4 -> setNome("Fabiana");
 
             $p1 -> setSexo("M");
+            $p1 -> setIdade(30);
+
             $p2 -> setCurso("Informática");
+            $p2 -> setIdade(14);
+            $p2 -> setSexo("F");
+            $p2 -> setMat(00002);
+
             $p3 -> setSalario(2500);
-            $p3 -> receberAumento(200);
+            $p3 -> receberAumento(250);
+            $p3 -> setEspecialidade("Matemática");
+
             $p4 -> setSetor("Limpeza");
+            $p4 -> setTrabalhando(true);
 
             print_r($p1);
             print_r($p2);

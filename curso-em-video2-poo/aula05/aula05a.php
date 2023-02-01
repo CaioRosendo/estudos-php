@@ -21,7 +21,7 @@
 
             //depósito
             $p1->depositar(300);
-            $p2->depositar(500);
+            $p2->depositar(300);
 
             //saque
             $p2->sacar(100);

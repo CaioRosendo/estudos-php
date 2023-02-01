@@ -5,10 +5,9 @@ class Aluno extends Pessoa {
     private $curso;
 
     public function cancelarMatr() {
-       echo "<p> Matrícula será cancelada.";
+       echo "<p> Matrícula será cancelada.</p>";
     }
     
-
     /**
      * Get the value of mat
      */ 
