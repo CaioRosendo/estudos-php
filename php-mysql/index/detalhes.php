@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos/estilo.css??v=1">
+    <link rel="stylesheet" href="../estilos/estilo.css??v=2">
     <title>detalhes</title>
 </head>
 <body>
@@ -26,16 +26,20 @@
                 } else { 
                     if ($busca -> num_rows == 1) {
                         $reg = $busca -> fetch_object();
-                        echo "<tr><td rowpan='3'>foto";
-                        echo "<td><h2>$reg->nome</h2>";
-                        echo "<tr><td>Descrição";
-                        echo "<td>Adm";
+                        $t = thumb($reg -> capa);
+                        echo "<td><h2>$reg->nome</h2>"; 
+                        echo "<td>Nota: $reg->nota/10.0"; 
+                        echo "<tr><td rowpan='3'> <img src ='$t' class='full' />"; 
+                         
+                        echo "<td id='desc'>$reg->descricao";
+                        echo "<td>Adm ";
                     } else {
                         echo "<tr><td> Nenhum registro encontrado";
                     }
                 }
             ?>
         </table>
+        <a href="index.php">Voltar</a>
     </div>
 </body>
 </html>

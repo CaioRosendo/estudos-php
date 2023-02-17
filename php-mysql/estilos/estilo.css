@@ -44,3 +44,18 @@ img.mini {
     width: 80px!important;
     height: 120px!important;
 }
+
+img.full {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+td#desc {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
